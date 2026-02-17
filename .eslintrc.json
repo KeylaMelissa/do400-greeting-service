@@ -2,11 +2,14 @@
     "env": {
         "commonjs": true,
         "es2021": true,
-        "node": true
+        "node": true,
+        "browser": true,
+        "mocha": true
     },
     "globals": {
-        "describe": false,
-        "it": false
+       // "describe": false,
+        //"it": false
+        "expect": "readonly"
     },
     "extends": "eslint:recommended",
     "parserOptions": {
